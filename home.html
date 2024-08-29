@@ -7,23 +7,32 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
-<body class="bg-orange-100 flex flex-col items-center justify-center min-h-screen">
+<body class="bg-blue-300 flex flex-col items-center min-h-screen">
 
-    <header class="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-20 bg-orange-300 p-5 w-full md:w-3/5">
-        <div class="flex gap-4 md:gap-8">
-            <i class="fa-solid fa-house text-1xl md:text-2xl"></i> 
-            <i class="fa-solid fa-message text-1xl md:text-2xl"></i>
-            <i class="fa-solid fa-bell text-1xl md:text-2xl"></i>
-            <i class="fa-solid fa-user text-1xl md:text-2xl"></i>
-            <i class="fa-solid fa-right-from-bracket text-1xl md:text-2xl"></i>
-        </div>
-        <input type="text" placeholder="enter" class="text-sm text-center h-6 w-32  md:w-auto rounded-lg bg-blue-100">
-        <button class="bg-black text-white p-1 text-sm h-6 w-8 flex justify-center items-center"><i class="fa-solid fa-magnifying-glass"></i></button>
+    <header class="flex flex-col md:flex-row  items-center justify-center gap-5 md:gap-10 bg-slate-700 p-5 w-full md:w-3/5 md:h-full h-full shadow-lg">
         
+        <div class="flex gap-16 md:gap-36">
+            <i class="fa-solid fa-house text-4xl md:text-4xl"></i> 
+            <i class="fa-solid fa-message text-4xl md:text-4xl"></i>
+            <i class="fa-solid fa-bell text-4xl md:text-4xl"></i>
+            <i class="fa-solid fa-user text-4xl md:text-4xl"></i>
+            <i class="fa-solid fa-right-from-bracket text-4xl md:text-4xl"></i>
+        </div>
     </header>
 
-    <main class="flex flex-col items-center justify-center bg-white h-[calc(100vh-10rem)] w-full md:w-3/5 p-4 md:p-10">
-        <!-- Your content goes here -->
+    <main class="flex flex-col items-center bg-white h-[calc(100vh-5rem)] w-full md:w-3/5 p-4 md:p-10">
+        <DIV class="flex flex-row gap-1 md:gap-2 bg-transparent w-full md:w-3/5 mt-[-45px] p-8">
+            <input type="text" placeholder="enter" class="text-sm text-center flex justify-center w-full  rounded-lg md:h-10 h-9 bg-blue-100">
+        <button class="bg-black text-white p-1 text-sm md:h-10 h-9 md:w-16 flex justify-center items-center rounded-lg p-3 "><i class="fa-solid fa-magnifying-glass"></i></button>
+        </DIV>
+
+        <div class="flex flex-col justify-end shadow-neutral-200  rounded-lg p-5 bg-slate-600 md:h-full md:w-full h-full w-full">
+             <div class="flex flex-row md:gap-16 gap-8 rounded-lg justify-center items-end bg-slate-500 p-5">
+                <i class="fa-brands fa-gratipay text-2xl md:text-2xl"></i>
+                <i class="fa-solid fa-comment text-2xl md:text-2xl"></i>
+                <i class="fa-solid fa-share text-2xl md:text-2xl "></i>
+             </div> 
+        </div>
     </main>
     
 </body>
